@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: cornflowerblue;
+    background: rgba(198, 100, 237, 0.92);
     margin: 0;
     padding: 0;
     display: flex;
@@ -57,6 +57,10 @@ select {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+
+
 }
 .url{
     padding: 10px;
@@ -220,3 +224,15 @@ body {
     right: 50px;
     top: -90px;
 }
+
+.card{
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+}
+.weath-card{
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
